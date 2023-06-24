@@ -2,7 +2,7 @@ node{
 // demo
    stage('SCM Checkout'){
      git 'https://github.com/kishorsanthosh-p/Spring-boot'
-     echo "peter"
+     sh echo "peter"
    }
    stage('Compile-Package'){
       // Get maven home path
