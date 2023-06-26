@@ -5,4 +5,5 @@ node{
      sh "ls"
      sh echo "peter"
    }
+}
    
