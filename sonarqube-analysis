@@ -2,6 +2,7 @@ node{
 // demo
    stage('SCM Checkout'){
      git 'https://github.com/kishorsanthosh-p/Spring-boot'
+     sh "git pull"
      sh "ls"
      sh "pwd"
    }
